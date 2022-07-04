@@ -7,7 +7,16 @@ Versión: 1.1
 Autor: Godofredo Diaz.
 '''
 
-#Expresiones que utilizen la estructura: ax+bj
-#Contiene una parte real y otra imaginaria.
-# j es la raíz cuadrada de -1
+#Secuencia de carácteres entre comillas dobles o simples.
 
+a = "0000"
+b = '0000'
+print(type(a))
+
+print("Primera línea\nSegunda línea")  #Imprimiendo dos líneas.
+print('''
+Imprimiendo un pàrrafo completo
+de un tema en particular.
+''')
+
+print("Uno\tDos\tTres\tCuatro\t")
