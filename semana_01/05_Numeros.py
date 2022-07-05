@@ -10,7 +10,7 @@ Autor: Godofredo Diaz.
 #import operator  #Importar libreria operator para manipular números
 #Revisar: https://docs.python.org/es/3/library/operator.html
 
-x, y, z, n= 5, 3, 10, 3 #Definimos cuatro variables en una sola línea.
+x, y, z, n = 5, 3, 10, 3 #Definimos cuatro variables en una sola línea.
 '''
 OPERACIONES QUE SE PUEDEN REALIZAR CON NÚMEROS:
 x + y           Sumar
@@ -31,4 +31,11 @@ round(x,n)      Devuelve x redondeado a n dígitos enteros si n es un int negati
 
 '''
 
+print(x/y)
+print(x//y)
+print(x%y)
+print(x**y)
+print(pow(x,y))
+print(type(divmod(x,y)))
+x, y, z, n = 44.45, 3, 10, 1 #Definimos cuatro variables en una sola línea.
 print(round(x,n))

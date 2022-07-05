@@ -22,6 +22,9 @@ Variable2 = Variable1                       #Agregando una nueva referencia a la
 referencias= sys.getrefcount(Variable1)
 print(referencias)                         #Imprimiendo el nuevo número de referencias.
 print("ID:",id(Variable2),"TIPO:",type(Variable2),"VALOR:",Variable2)
+Variable1 = "0,1,2,3,4"                     # Definiendo una nueva variable.
+referencias= sys.getrefcount(Variable1)
+referencias= sys.getrefcount(Variable2)
 
 print(keyword.kwlist)                       #Identificando las palabras reservadas.
 

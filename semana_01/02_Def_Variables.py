@@ -11,8 +11,9 @@ Autor: Godofredo Diaz.
 from re import X
 from tkinter import Y
 
-
-mi_variable1 = 1
+#Python identifica el tipo de dato a almacenar en la variable.
+mi_variable1 = "1"
+print(type(mi_variable1))
 
 mi_variabletxt = "Texto"
 
@@ -33,8 +34,11 @@ return  try         while
 
 x = 300 #300 es almacenado en x
 print(x)
+print("ID:",id(x),"Typo:",type(x),"Valor:",x)
 y = x  # ahora y hace referencia a x por lo que su valor será 300
-
+print("ID:",id(y),"Typo:",type(y),"Valor:",y)
 x = 400
 print (x)
+print("ID:",id(x),"Typo:",type(x),"Valor:",x)
 print(y)
+print("ID:",id(y),"Typo:",type(y),"Valor:",y)
