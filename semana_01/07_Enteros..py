@@ -14,13 +14,13 @@ z = 10
 print(x-y)
 print(x+y)
 
-c = 0b11111111  #Binario
+c = 0b11101111  #Binario
 print(c)
 
 d = 0o454545  #octal
 print(d)
 
-e = 0xababab0  #hexadecimal
+e = 0xf  #hexadecimal
 print(e)
 
 #bin() oct() hex()

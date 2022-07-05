@@ -13,7 +13,7 @@ Autor: Godofredo Diaz.
 x =5.2
 print(type(x))
 
-#Resultado de cualquier divición
+#Resultado de cualquier división
 
 a = 4
 b = 3

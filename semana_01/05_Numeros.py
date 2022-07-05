@@ -37,5 +37,5 @@ print(x%y)
 print(x**y)
 print(pow(x,y))
 print(type(divmod(x,y)))
-x, y, z, n = 44.45, 3, 10, 1 #Definimos cuatro variables en una sola línea.
+x, y, z, n = 1114, 3, 10, -4 #Definimos cuatro variables en una sola línea.
 print(round(x,n))
