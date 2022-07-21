@@ -36,7 +36,13 @@ class Lavadoras(Artefactos):
         else:
             print("Para lavar tienens que encender.")
 
+class Licuadora(Artefactos):
+    pass
 
 lavadora = Lavadoras(marca="LG",estado="Pausa")
 lavadora.get_encender()
 lavadora.lavar()
+
+Licuadora01 = Licuadora(marca="Oster",estado="Encendida")
+print(Licuadora01.marca)
+Licuadora01.get_encender()
