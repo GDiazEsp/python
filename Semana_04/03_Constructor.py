@@ -15,7 +15,7 @@ Propiedades: [Color,capacidad]
 Comportamiento: [lavar,centrifugar,enjuagar]
 '''
 
-class Lavadoras():
+class Lavadoras:
     #Definiendo el constructor.
     def __init__(self,estado="Apagada",color="Blanco",capacidad="12kg"):        
         self.estado = estado

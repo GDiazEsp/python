@@ -56,8 +56,8 @@ LavadoraEG = Lavadoras()
 #Llamando a un comportamiento.
 color = LavadoraEG.color
 #Accediendo a un atributo privado.
-#voltaje = LavadoraEG._Lavadoras__voltaje
-voltaje = LavadoraEG.voltaje
+voltaje = LavadoraEG._Lavadoras__voltaje
+#voltaje = LavadoraEG.voltaje
 
 print(color)
 print(voltaje)

@@ -8,9 +8,9 @@ Author : Godofredo Diaz
 '''
 
 
-#Utilizar la palabra reservada class  NombreDeLaClase(): para crear una clase.
+#Utilizar la palabra reservada class  NombreDeLaClase: para crear una clase.
 
-class NombreDeLaClase():
+class NombreDeLaClase:
     #Se define las propiedades (atributos)
     Atributo_01 = "Valor2"
     Atributo_02 = "Valor2"
