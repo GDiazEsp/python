@@ -14,12 +14,12 @@ from mysql.connector import errorcode
 config =  {"host":"69.73.180.151", 
            "user":"asesores_python", 
            "password":"T3c5up00--",  
-           "db":"asesores_python"}
+           "db":"asesores_python2"}
 
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
 
-sql = ( "CREATE TABLE employees ("
+sql = ( "CREATE TABLE employeesGDiaz ("
         "  emp_no int(11) NOT NULL AUTO_INCREMENT,"
         "  first_name varchar(14) NOT NULL,"
         "  last_name varchar(16) NOT NULL,"
